@@ -19,12 +19,12 @@
         </div>
     </nav>
 
-    <section id="main" class="container size-full">
+    <section id="main">
         <div id="main-flex" class="flex flex-row"> 
             <div id="store-name-flex" class="flex-none items-center w-[50%] h-[60vh] grid grid-row auto-row-max content-center place-items-start px-10">
                 <h1 class="font-sans text-8xl font-bold">De'Sate</h1>
-                <div class="indent-9"><h2 class="font-sans text-3xl ">Your cheapest and tastiest food options</h2></div>
-                <div class="indent-9"><h2 class="font-sans text-3xl ">are from here.</h2></div>
+                <h2 class="font-sans text-3xl indent-9">Your cheapest and tastiest food options</h2>
+                <h2 class="font-sans text-3xl indent-9">are from here.</h2>
                 <button class="indent-9" >Menu</button>
             </div>
             <div id="products-flex" class="flex-initail w-[60%] align-center">
