@@ -24,6 +24,9 @@
             </div>
         </div>
     </header>
+    <section id="main" class=""></section>
+    <section id="top-picks" class=""></section>
+    <section id="front-store" class=""></section>
     <h1 class="">Home</h1>
 </body>
 </html>
