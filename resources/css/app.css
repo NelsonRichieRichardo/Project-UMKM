@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+    font-size: 50px;
+    margin-left: 32px;
+    margin-top: 32px;
+    font-weight: bold;
+}
+
 .nav-header {
     display: flex;
 }
