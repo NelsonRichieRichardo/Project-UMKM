@@ -9,21 +9,21 @@
 </head>
 <body>
     <header>
-        <div>
-            <div>
+        <div class="flex flex-row w-96">
+            <div class="basis-1/4">
                 Home
             </div>
-            <div>
+            <div class="basis-1/4">
                 Menu
             </div>
-            <div>
+            <div class="basis-1/4">
                 About
             </div>
-            <div>
+            <div class="basis-1/4">
                 Catalog
             </div>
         </div>
     </header>
-    <h1>Home</h1>
+    <h1 class="">Home</h1>
 </body>
 </html>
