@@ -14,6 +14,7 @@
         "vite": "^5.0"
     },
     "dependencies": {
-        "watch": "^1.0.2"
+        "bootstrap": "^5.3.3",
+        "watch": "^0.13.0"
     }
 }
