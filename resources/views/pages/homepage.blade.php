@@ -24,9 +24,19 @@
             </div>
         </div>
     </header>
-    <section id="main" class=""></section>
-    <section id="top-picks" class=""></section>
+    <section id="main" class="container size-full">
+        <div id="main-flex" class="flex flex-row"> 
+            <div id="store-name-flex" class="flex-none w-[40%]">
+                <h1 class="font-sans text-7xl font-bold">De' Sate</h1>
+            </div>
+            <div id="products" class="flex-initail w-[60%] align-center">
+                <img alt="image"><img>
+            </div>
+        </div>
+    </section>
+    <section id="top-picks" class="">
+
+    </section>
     <section id="front-store" class=""></section>
-    <h1 class="">Home</h1>
 </body>
 </html>
