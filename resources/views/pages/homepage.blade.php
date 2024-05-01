@@ -30,7 +30,7 @@
     </section>
 
     <section id="top-picks" classs="absolute">
-        <h1 class="font-sans font-bold text-5xl text-center content-around">────Our Top Pick's────</h1>
+        <h1 class="font-sans font-bold text-5xl text-center content-around">────Our Top Picks────</h1>
         <div id="main-cont" class="grid grid-cols-3 gap-4 justify-items-center mt-8">
             <div id="top-img" class="w-fit h-fit">
                 <img src="" class="w-96 h-96" alt="image"></img>
