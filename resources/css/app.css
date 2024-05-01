@@ -25,7 +25,6 @@ h1 {
     font-size: 24px;
 }
 
-#store-name-flex {
-    border: 1px solid black;
-    align-items: center;
+body{
+    width: 90%;
 }
