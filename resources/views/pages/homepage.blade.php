@@ -33,17 +33,17 @@
         <h1 class="font-sans font-bold text-5xl text-center content-around">────Our Top Picks────</h1>
         <div id="main-cont" class="grid grid-cols-3 gap-4 justify-items-center mt-8">
             <div id="top-img" class="w-fit h-fit">
-                <img src="" class="w-96 h-96" alt="image"></img>
+                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"></img><br>
+                <h2 class="text-center text-2xl">Tahu Tempe Telur</h2>
+                <h2 class="text-center text-xl">Rp. 10.000,-</h2>
+            </div>
+            <div id="top-img" class="w-fit h-fit">
+                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"></img><br>
                 <h2 class="text-center text-2xl">Ayam Goreng</h2>
                 <h2 class="text-center text-xl">Rp. 12.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="" class="w-96 h-96" alt="image"></img>
-                <h2 class="text-center text-2xl">Ayam Goreng</h2>
-                <h2 class="text-center text-xl">Rp. 12.000,-</h2>
-            </div>
-            <div id="top-img" class="w-fit h-fit">
-                <img src="" class="w-96 h-96" alt="image" ></img>
+                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image" ></img><br>
                 <h2 class="text-center text-2xl">Ayam Goreng</h2>
                 <h2 class="text-center text-xl">Rp. 12.000,-</h2>
             </div>
