@@ -8,25 +8,16 @@
     <title>Home | De'Sate</title>
 </head>
 <body>
-    <header>
-        <div class="flex flex-row w-96">
-            <div class="basis-1/4">
-                Home
-            </div>
-            <div class="basis-1/4">
-                Menu
-            </div>
-            <div class="basis-1/4">
-                About
-            </div>
-            <div class="basis-1/4">
-                Catalog
-            </div>
-        </div>
-    </header>
-    <section id="main" class=""></section>
-    <section id="top-picks" class=""></section>
-    <section id="front-store" class=""></section>
-    <h1 class="">Home</h1>
+<nav class="nav-header">
+    <div class="nav-option">
+        <ul>
+		    <li><a href="#">Home</a></li>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Catalog</a></li>
+		</ul>
+    </div>
+</nav>
+
 </body>
 </html>
