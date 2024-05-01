@@ -33,26 +33,25 @@
         <h1 class="font-sans font-bold text-5xl text-center content-around">────Our Top Picks────</h1>
         <div id="main-cont" class="grid grid-cols-3 gap-4 justify-items-center mt-8">
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"></img><br>
+                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"><br>
                 <h2 class="text-center text-2xl">Tahu Tempe Telur</h2>
                 <h2 class="text-center text-xl">Rp. 10.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"></img><br>
+                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"><br>
                 <h2 class="text-center text-2xl">Ayam Goreng</h2>
                 <h2 class="text-center text-xl">Rp. 12.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image" ></img><br>
+                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image" ><br>
                 <h2 class="text-center text-2xl">Ayam Goreng</h2>
                 <h2 class="text-center text-xl">Rp. 12.000,-</h2>
             </div>
         </div>
     </section>
 
-    <section id="front-store" class="container full-size mt-20">
-        <img src="" alt="Front Store" class="full-size"></img>
+    <section id="front-store" class="mt-20">
+        <img src="build/assets/pakde.JPG" alt="Pak'De Pemilik Usaha">
     </section>
-
 </body>
 </html>

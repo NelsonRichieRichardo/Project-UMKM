@@ -67,4 +67,10 @@ svg {
     position: absolute;
     bottom: 0
 }
- 
+
+#front-store {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
