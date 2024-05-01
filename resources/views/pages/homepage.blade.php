@@ -8,16 +8,17 @@
     <title>Home | De'Sate</title>
 </head>
 <body>
-    <nav class="nav-header">
-        <div class="nav-option">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="/catalog">Catalog</a></li>
-            </ul>
-        </div>
+    <nav class="nav">
+      <div class="nav-item">Home</div>
+      <div class="nav-item">Menu</div>
+      <div class="nav-item">About</div>
+      <div class="nav-item">Catalog</div>
     </nav>
+<<<<<<< HEAD
+    <section class="section">
+      <div class="title">De'Sate</div>
+      <div class="subtitle">Your cheapest & tastiest food options are from here.</div>
+=======
 
     <section id="main" class="container size-full">
         <div class="header-text-cont">
