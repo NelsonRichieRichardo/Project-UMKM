@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-header {
+    display: flex;
+}
+
+.nav-option ul {
+    display: flex;
+    gap: 52px;
+    padding: 8px;
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+.nav-option li {
+    font-size: 24px;
+}

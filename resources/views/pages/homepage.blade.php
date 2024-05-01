@@ -38,5 +38,16 @@
 
     </section>
     <section id="front-store" class=""></section>
+<nav class="nav-header">
+    <div class="nav-option">
+        <ul>
+		    <li><a href="#">Home</a></li>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Catalog</a></li>
+		</ul>
+    </div>
+</nav>
+
 </body>
 </html>
