@@ -21,7 +21,7 @@
 
     <section id="main" class="container size-full">
         <div id="main-flex" class="flex flex-row"> 
-            <div id="store-name-flex" class="flex-none w-[40%]">
+            <div id="store-name-flex" class="flex-none w-[40%] h-[90vh]">
                 <h1 class="font-sans text-7xl font-bold">De' Sate</h1>
             </div>
             <div id="products" class="flex-initail w-[60%] align-center">
