@@ -8,15 +8,11 @@
     <title>Home | De'Sate</title>
 </head>
 <body>
-    <nav class="nav-header">
-        <div class="nav-option">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="/catalog">Catalog</a></li>
-            </ul>
-        </div>
+    <nav class="nav">
+      <div class="nav-item">Home</div>
+      <div class="nav-item">Menu</div>
+      <div class="nav-item">About</div>
+      <div class="nav-item">Catalog</div>
     </nav>
 
     <section id="main" class="container size-full">
@@ -32,10 +28,9 @@
             </div>
         </div>
     </section>
-    <section id="top-picks" class="">
-
-    </section>
-    <section id="front-store" class=""></section>
-
-</body>
+    <div class="menu-item">
+        <img src="spaghetti-meatball.jpg" alt="Spaghetti Meatball">
+        <span>Spaghetti Meatball</span>
+    </div>
+  </body>
 </html>
