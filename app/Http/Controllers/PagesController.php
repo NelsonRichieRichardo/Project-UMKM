@@ -12,4 +12,6 @@ class PagesController extends Controller
     public function catalog(){
         return view('pages.catalog');
     }
+
+
 }
