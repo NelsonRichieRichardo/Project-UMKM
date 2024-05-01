@@ -22,6 +22,9 @@
             <div class="basis-1/4">
                 Catalog
             </div>
+            <div class="basis-1/4">
+                TEST
+            </div>
         </div>
     </header>
     <h1 class="">Home</h1>
