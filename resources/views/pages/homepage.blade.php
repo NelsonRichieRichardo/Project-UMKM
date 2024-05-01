@@ -25,6 +25,10 @@
             <div class="basis-1/4">
                 TEST
             </div>
+            <div class="basis-1/4">
+                TEST2
+            </div>
+
         </div>
     </header>
     <h1 class="">Home</h1>
