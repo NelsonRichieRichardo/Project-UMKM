@@ -6,6 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <title>Home | De'Sate</title>
+    <style>
+        .lingkaran {
+            display : flex;
+            height: 455px;
+            width: 280px;
+            background-color: #bbb;
+            border-bottom-left-radius: 50% 20%;
+            border-bottom-right-radius: 50% 20%;
+            position: relative;
+            bottom: 200px;
+            left: 660px;
+        }
+        .pattaya {
+            border-radius: 50%;
+            width: 570px;
+            height: 230px;
+            position: relative;
+            top: 200px;
+            right: 3px;
+            display : flex;
+        }
+        .sampingan {
+            width:640px;
+            height: 100px;
+            position: relative;
+            top: 110px;
+            left : 480px;
+            display : flex;
+            justify-content : space-between
+        }
+        .sampingan .samping {
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
 
@@ -20,6 +54,15 @@
                 </ul>
             </div>
         </nav>
+        <div class="sampingan">
+            <img class="samping" src="build/assets/miegor.jpg" alt="miegor" width="150px" height="100px">
+            <img class="samping" src="build/assets/ayamp.jpg" alt="ayamp" width="150px" height="100px">
+        </div>
+
+        <div class="lingkaran">
+            <img class="pattaya" src="build/assets/pattaya.jpg" alt="nasgor pattaya">
+        </div>  
+
         <div class="header-text-cont">
             <h2>De'Sate</h2>
             <p>Your cheapest & tastiest food options
