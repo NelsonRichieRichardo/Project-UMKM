@@ -47,9 +47,10 @@
 
         @media only screen and (min-width: 768px) {
         /* For desktop: */
-        .sampingan (width: 25%;)
+        .sampingan {width: 16.6%;}
         }
     </style>
+    
 </head>
 <body>
 
@@ -65,8 +66,8 @@
             </div>
         </nav>
         <div class="sampingan">
-            <img class="samping" src="miegor.png" alt="miegor" width="200px" height="170px">
-            <img class="samping" src="build/assets/ayamp.jpg" alt="ayamp" width="150px" height="100px">
+            <img class="samping.kiri" src="miegor.png" alt="miegor" width="200px" height="170px">
+            <img class="samping.kanan" src="build/assets/ayamp.jpg" alt="ayamp" width="150px" height="100px">
         </div>
 
         <div class="lingkaran">
@@ -88,17 +89,17 @@
             <div id="top-img" class="w-fit h-fit">
                 <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"><br>
                 <h2 class="text-center text-2xl">Tahu Tempe Telur</h2>
-                <h2 class="text-center text-xl">Rp. 10.000,-</h2>
+                <h2 class="text-center text-xl">Rp. 13.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"><br>
-                <h2 class="text-center text-2xl">Ayam Goreng</h2>
-                <h2 class="text-center text-xl">Rp. 12.000,-</h2>
+                <img src="build/assets/satereguler.JPG" class="w-96 h-96" alt="image"><br>
+                <h2 class="text-center text-2xl">Sate Reguler</h2>
+                <h2 class="text-center text-xl">Rp. 20.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image" ><br>
-                <h2 class="text-center text-2xl">Ayam Goreng</h2>
-                <h2 class="text-center text-xl">Rp. 12.000,-</h2>
+                <img src="build/assets/Nasi.JPG" class="w-96 h-96" alt="image" ><br>
+                <h2 class="text-center text-2xl">Nasi Putih</h2>
+                <h2 class="text-center text-xl">Rp. 7.000,-</h2>
             </div>
         </div>
     </section>
