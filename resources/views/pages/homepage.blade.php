@@ -6,40 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <title>Home | De'Sate</title>
-    <style>
-        .lingkaran {
-            display : flex;
-            height: 455px;
-            width: 280px;
-            background-color: #bbb;
-            border-bottom-left-radius: 50% 20%;
-            border-bottom-right-radius: 50% 20%;
-            position: relative;
-            bottom: 200px;
-            left: 660px;
-        }
-        .pattaya {
-            border-radius: 50%;
-            width: 570px;
-            height: 230px;
-            position: relative;
-            top: 200px;
-            right: 3px;
-            display : flex;
-        }
-        .sampingan {
-            width:640px;
-            height: 100px;
-            position: relative;
-            top: 110px;
-            left : 465px;
-            display : flex;
-            justify-content : space-between
-        }
-        .sampingan .samping {
-            border-radius: 50%;
-        }
-    </style>
+    
 </head>
 <body>
 
@@ -78,17 +45,17 @@
             <div id="top-img" class="w-fit h-fit">
                 <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"><br>
                 <h2 class="text-center text-2xl">Tahu Tempe Telur</h2>
-                <h2 class="text-center text-xl">Rp. 10.000,-</h2>
+                <h2 class="text-center text-xl">Rp. 13.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"><br>
-                <h2 class="text-center text-2xl">Ayam Goreng</h2>
-                <h2 class="text-center text-xl">Rp. 12.000,-</h2>
+                <img src="build/assets/satereguler.JPG" class="w-96 h-96" alt="image"><br>
+                <h2 class="text-center text-2xl">Sate Reguler</h2>
+                <h2 class="text-center text-xl">Rp. 20.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image" ><br>
-                <h2 class="text-center text-2xl">Ayam Goreng</h2>
-                <h2 class="text-center text-xl">Rp. 12.000,-</h2>
+                <img src="build/assets/Nasi.JPG" class="w-96 h-96" alt="image" ><br>
+                <h2 class="text-center text-2xl">Nasi Putih</h2>
+                <h2 class="text-center text-xl">Rp. 7.000,-</h2>
             </div>
         </div>
     </section>
