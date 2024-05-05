@@ -94,12 +94,12 @@
                 <h2 class="text-center text-xl">Rp. 13.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/satereguler.JPG" class="w-96 h-96" alt="image"><br>
+                <img src="satereguler.JPG" class="w-96 h-96" alt="image"><br>
                 <h2 class="text-center text-2xl">Sate Reguler</h2>
                 <h2 class="text-center text-xl">Rp. 20.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="build/assets/Nasi.JPG" class="w-96 h-96" alt="image" ><br>
+                <img src="Nasi.JPG" class="w-96 h-96" alt="image" ><br>
                 <h2 class="text-center text-2xl">Nasi Putih</h2>
                 <h2 class="text-center text-xl">Rp. 7.000,-</h2>
             </div>
@@ -107,7 +107,7 @@
     </section>
 
     <section id="front-store" class="mt-20">
-        <img src="build/assets/pakde.JPG" alt="Pak'De Pemilik Usaha">
+        <img src="pakde.JPG" alt="Pak'De Pemilik Usaha">
     </section>
 </body>
 </html>
