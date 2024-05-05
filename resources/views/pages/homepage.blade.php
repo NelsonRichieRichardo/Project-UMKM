@@ -47,7 +47,9 @@
 
         @media only screen and (min-width: 768px) {
         /* For desktop: */
-        .sampingan {width: 16.6%;}
+        .sampingan {width: 50%;}
+        .lingkaran {width: 25%;}
+        .pattaya {width: 100%;}
         }
     </style>
     
