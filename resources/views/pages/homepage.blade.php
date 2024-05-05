@@ -114,7 +114,7 @@
             </div>
         </nav>
         <div class="sampingan">
-            <img class="samping" src="storage\app\public\miegor.png" alt="miegor" width="200px" height="170px">
+            <img class="samping" src="app/public/miegor.png" alt="miegor" width="200px" height="170px">
             <img class="samping" src="build/assets/ayamp.jpg" alt="ayamp" width="150px" height="100px">
         </div>
 
