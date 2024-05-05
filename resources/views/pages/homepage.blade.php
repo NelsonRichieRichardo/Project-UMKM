@@ -67,11 +67,11 @@
         </nav>
         <div class="sampingan">
             <img class="samping.kiri" src="miegor.png" alt="miegor" width="200px" height="170px">
-            <img class="samping.kanan" src="build/assets/ayamp.jpg" alt="ayamp" width="150px" height="100px">
+            <img class="samping.kanan" src="ayamp.png" alt="ayamp" width="150px" height="100px">
         </div>
 
         <div class="lingkaran">
-            <img class="pattaya" src="build/assets/pattaya.jpg" alt="nasgor pattaya">
+            <img class="pattaya" src="pattaya.png" alt="nasgor pattaya">
         </div>  
 
         <div class="header-text-cont">
