@@ -20,7 +20,7 @@
     </div>
   </nav>
 
-    <h1>Product Catalog</h1>
+    <h1 class="page-header">Product Catalog</h1>
     <!--
   This example requires some changes to your config:
   

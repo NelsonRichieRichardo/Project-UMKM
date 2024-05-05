@@ -11,3 +11,12 @@ export default {
   plugins: [],
 }
 
+// module.exports = {
+//   theme: {
+//     // ...
+//   },
+//   plugins: [
+//     require('@tailwindcss/forms'),
+//     // ...
+//   ],
+// }
