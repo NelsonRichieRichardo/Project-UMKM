@@ -13,8 +13,9 @@ class PagesController extends Controller
         return view('pages.catalog');
     }
 
-    public function login(){
-        return view('pages.login');
-    }
 
+
+    public function admin(){
+        return view('pages.admin');
+    }
 }
