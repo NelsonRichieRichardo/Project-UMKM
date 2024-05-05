@@ -91,7 +91,7 @@
             height: 100px;
             position: relative;
             top: 110px;
-            left : 480px;
+            left : 465px;
             display : flex;
             justify-content : space-between
         }
@@ -114,7 +114,7 @@
             </div>
         </nav>
         <div class="sampingan">
-            <img class="samping" src="build/assets/miegor.png" alt="miegor" width="150px" height="100px">
+            <img class="samping" src="storage\app\public\miegor.png" alt="miegor" width="200px" height="170px">
             <img class="samping" src="build/assets/ayamp.jpg" alt="ayamp" width="150px" height="100px">
         </div>
 
