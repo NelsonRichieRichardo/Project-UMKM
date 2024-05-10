@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\AuthController;
 use Illuminate\Http\Request;
+use Hash;
 
 class PagesController extends Controller
 {
