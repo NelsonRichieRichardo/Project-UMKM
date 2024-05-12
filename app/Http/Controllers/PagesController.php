@@ -23,4 +23,11 @@ class PagesController extends Controller
     public function admin(){
         return view('pages.admin.admin');
     }
+    public function menu(){
+        return view('pages.menu');
+    }
+
+    public function about(){
+        return view('pages.about');
+    }
 }

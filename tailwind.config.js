@@ -4,6 +4,7 @@ export default {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
+    
   ],
   theme: {
     extend: {},
@@ -11,12 +12,12 @@ export default {
   plugins: [],
 }
 
-// module.exports = {
-//   theme: {
-//     // ...
-//   },
-//   plugins: [
-//     require('@tailwindcss/forms'),
-//     // ...
-//   ],
-// }
+module.exports = {
+  theme: {
+    // ...
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
+}

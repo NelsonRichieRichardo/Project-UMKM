@@ -133,3 +133,15 @@ justify-content : space-between
 .sampingan .samping {
     border-radius: 50%;
 }
+
+/* For mobile phones: */
+/* [class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) { */
+/* For desktop: */
+/* .sampingan {width: 45%;}
+.lingkaran {width: 20%;}
+.pattaya {width: 100%;}
+} */

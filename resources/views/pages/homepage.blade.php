@@ -6,74 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <title>Home | De'Sate</title>
-    <style>
-        .lingkaran {
-            display : flex;
-            height: 455px;
-            width: 280px;
-            background-color: #bbb;
-            border-bottom-left-radius: 50% 20%;
-            border-bottom-right-radius: 50% 20%;
-            position: relative;
-            bottom: 200px;
-            left: 660px;
-        }
-        .pattaya {
-            border-radius: 50%;
-            width: 570px;
-            height: 230px;
-            position: relative;
-            top: 200px;
-            right: 3px;
-            display : flex;
-        }
-        .sampingan {
-            width:640px;
-            height: 100px;
-            position: relative;
-            top: 110px;
-            left : 465px;
-            display : flex;
-            justify-content : space-between
-        }
-        .sampingan .samping {
-            border-radius: 50%;
-        }
-
-        /* For mobile phones: */
-        [class*="col-"] {
-            width: 100%;
-        }
-
-        @media only screen and (min-width: 768px) {
-        /* For desktop: */
-        .sampingan {width: 45%;}
-        .lingkaran {width: 20%;}
-        .pattaya {width: 100%;}
-        }
-    </style>
     
 </head>
 <body>
 
     <section id="main">
         <nav class="nav-header">
-            <div class="nav-option">
+            <div class="nav-option text">
                 <ul>
                     <li><a href="/home">Home</a></li>
-                    <li><a href="/">Menu</a></li>
-                    <li><a href="/">About</a></li>
+                    <li><a href="/menu">Menu</a></li>
+                    <li><a href="/about">About</a></li>
                     <li><a href="/catalog">Catalog</a></li>
                 </ul>
             </div>
         </nav>
         <div class="sampingan">
-            <img class="samping.kiri" src="miegor.png" alt="miegor" width="200px" height="170px">
-            <img class="samping.kanan" src="ayamp.png" alt="ayamp" width="150px" height="100px">
+            <img class="samping.kiri" src="./build/assets/miegor.JPG" alt="miegor" width="200px" height="170px">
+            <img class="samping.kanan" src="./build/assets/ayamp.JPG" alt="ayamp" width="150px" height="100px">
         </div>
 
         <div class="lingkaran">
-            <img class="pattaya" src="pattaya.png" alt="nasgor pattaya">
+            <img class="pattaya" src="./build/assets/pattaya.JPG" alt="nasgor pattaya">
         </div>  
 
         <div class="header-text-cont">
@@ -89,19 +43,19 @@
         <h3 class="font-sans font-bold text-5xl text-center">────Our Top Picks────</h1>
         <div id="main-cont" class="grid grid-cols-3 gap-4 justify-items-center mt-8">
             <div id="top-img" class="w-fit h-fit">
-                <img src="3TnNasi.JPG" class="w-96 h-96" alt="image"><br>
+                <img src="./build/assets/3TnNasi.JPG" class="w-96 h-96" alt="image"><br>
                 <h2 class="text-center text-2xl">Tahu Tempe Telur</h2>
                 <h2 class="text-center text-xl">Rp. 13.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="satereguler.JPG" class="w-96 h-96" alt="image"><br>
+                <img src="./build/assets/satereguler.JPG" class="w-96 h-96" alt="image"><br>
                 <h2 class="text-center text-2xl">Sate Reguler</h2>
                 <h2 class="text-center text-xl">Rp. 20.000,-</h2>
             </div>
             <div id="top-img" class="w-fit h-fit">
-                <img src="Nasi.JPG" class="w-96 h-96" alt="image" ><br>
+                <img src="./build/assets/Nasi.JPG" class="w-96 h-96" alt="image" ><br>
                 <h2 class="text-center text-2xl">Nasi Putih</h2>
-                <h2 class="text-center text-xl">Rp. 7.000,-</h2>
+                <h2 class="text-center text-xl">Rp. 5.000,-</h2>
             </div>
         </div>
     </section>

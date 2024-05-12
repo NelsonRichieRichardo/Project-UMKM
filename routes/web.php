@@ -14,4 +14,5 @@ Route::get('/catalog', [PagesController::class, 'catalog'])->name('catalog');
 Route::get('/login', [PagesController::class, 'login'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticate'])->name('login');
 Route::get('/admin', [PagesController::class, 'admin'])->name('admin');
-
+Route::get('/about', [PagesController::class, 'about'])->name('about');
+Route::get('/menu', [PagesController::class, 'menu'])->name('menu');
