@@ -9,7 +9,7 @@ class AuthController extends Controller
 {
     public function authenticate(Request $request){
         $remember = !empty($request->remember) ?  true : false;
-        if (Auth::attempt(['name' => $request->username, 'password' => $request->password, 'is_admin' => 1], $remember)){
+        if (Auth::attempt(['name' => $request->username, 'password' => $request->password, 'roles' => "admin"], $remember)){
             return redirect('/admin');
         }
         else {
