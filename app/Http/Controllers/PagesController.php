@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\AuthController;
 use Illuminate\Http\Request;
-use Hash;
 
 class PagesController extends Controller
 {
@@ -21,7 +20,7 @@ class PagesController extends Controller
     }
 
     public function admin(){
-        return view('pages.admin.admin');
+        return view('pages.admin.dashboard');
     }
     public function menu(){
         return view('pages.menu');

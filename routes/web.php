@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -17,5 +18,8 @@ Route::get('/login', [PagesController::class, 'login'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticate'])->name('login');
 
 Route::group(['middleware' => 'admin'], function() {
-    Route::get('/admin', [PagesController::class, 'admin'])->name('admin');
+    Route::get('/admin', [AuthController::class, 'index'])->name('admin.dashboard')->middleware('auth');;
 });
+
+Route::resource('products', ProductController::class);
+Route::delete('/products/{product_id}', [ProductController::class, 'destroy'])->name('products.destroy');
