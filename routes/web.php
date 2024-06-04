@@ -18,8 +18,8 @@ Route::get('/login', [PagesController::class, 'login'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticate'])->name('login');
 
 Route::group(['middleware' => 'admin'], function() {
-    Route::get('/admin', [AuthController::class, 'index'])->name('admin.dashboard')->middleware('auth');;
+    Route::get('/admin', [AuthController::class, 'index'])->name('admin.dashboard')->middleware('auth');
+    Route::resource('products', ProductController::class);
+    Route::post('/products/{product_id}', [ProductController::class, 'destroy'])->name('products.destroy');
 });
 
-Route::resource('products', ProductController::class);
-Route::delete('/products/{product_id}', [ProductController::class, 'destroy'])->name('products.destroy');

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\File;
+Use DB;
 
 class ProductController extends Controller
 {
@@ -103,16 +104,16 @@ class ProductController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Request $request)
+    public function destroy($id)
     {
-        $product = Product::findOrFail($request->id);
+        $product = Product::findOrFail($id);
 
         if ($product->image && File::exists(public_path('uploads/' . $product->image))) {
             File::delete(public_path('uploads/' . $product->image));
         }
 
         $product->delete();
-
+        
         Session::flash('success', 'Product deleted successfully');
         return redirect()->route('admin.dashboard');
     }
