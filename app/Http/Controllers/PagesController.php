@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\AuthController;
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class PagesController extends Controller
 {
@@ -12,7 +13,8 @@ class PagesController extends Controller
     }
 
     public function catalog(){
-        return view('pages.catalog');
+        $products = Product::all();
+        return view('pages.catalog', compact('products'));
     }
 
     public function login(){
