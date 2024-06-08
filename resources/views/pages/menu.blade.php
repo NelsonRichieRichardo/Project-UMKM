@@ -33,12 +33,63 @@
                 </ul>
             </div>
         </nav>
-        <h1 class="menu">Menu <span style="text-align:right">2024</span></h1>
-        <div class="foto">
-            <img src="./build/assets/menu1.JPG" alt="menu1" width="40%" height="40%">
-            <img src="./build/assets/menu2.JPG" alt="menu2" width="40%" height="40%">
-            <img src="./build/assets/menu3.JPG" alt="menu3" width="40%" height="40%">
-            <img src="./build/assets/menu4.JPG" alt="menu4" width="40%" height="40%">
+        <div class="flex flex-box">
+            {{-- Tabel Kiri --}}
+            <div class="flex-grow flex-col">
+                <h1 class="page-header">Makanan</h1>
+                <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                        <div class="overflow-hidden">
+                            <table class="min-w-full text-left text-sm font-light text-surface dark:text-black">
+                                <thead class="border-b border-neutral-200 font-medium dark:border-white/10">
+                                    <tr>
+                                        <th scope="col" class="px-6 py-4">Name</th>
+                                        <th scope="col" class="px-6 py-4">Price</th>
+                                    </tr>
+                                </thead>
+                                @foreach ( $products as $product)  
+                                    @if ($product->category == 'makanan')
+                                        <tbody>
+                                            <tr class="border-b border-neutral-200 dark:border-black/10">
+                                                <td class="whitespace-nowrap px-6 py-4">{{ $product->name}}</td>
+                                                <td class="whitespace-nowrap px-6 py-4">{{ $product->price}}</td>
+                                            </tr>
+                                        </tbody>
+                                    @endif
+                                @endforeach
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{-- Tabel Kanan --}}
+            <div class="flex-grow flex-col">
+                <h1 class="page-header">Minuman</h1>
+                <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                        <div class="overflow-hidden">
+                            <table class="min-w-full text-left text-sm font-light text-surface dark:text-black">
+                                <thead class="border-b border-neutral-200 font-medium dark:border-white/10">
+                                    <tr>
+                                        <th scope="col" class="px-6 py-4">Name</th>
+                                        <th scope="col" class="px-6 py-4">Price</th>
+                                    </tr>
+                                </thead>
+                                @foreach ( $products as $product)  
+                                    @if ($product->category == 'minuman')
+                                        <tbody>
+                                            <tr class="border-b border-neutral-200 dark:border-black/10">
+                                                <td class="whitespace-nowrap px-6 py-4">{{ $product->name}}</td>
+                                                <td class="whitespace-nowrap px-6 py-4">{{ $product->price}}</td>
+                                            </tr>
+                                        </tbody>
+                                    @endif
+                                @endforeach
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     

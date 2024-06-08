@@ -34,6 +34,7 @@ class ProductController extends Controller
     {
         $request->validate([
             'name' => 'required',
+            'category' => 'nullable',
             'description' => 'nullable',
             'price' => 'required|numeric',
             'image' => 'mimes:png,jpeg,jpg|max:2048',
@@ -41,6 +42,7 @@ class ProductController extends Controller
 
         $product = new Product();
         $product->name = $request->name;
+        $product->category = $request->category;
         $product->description = $request->description;
         $product->price = $request->price;
 
@@ -80,6 +82,7 @@ class ProductController extends Controller
 
         $product = Product::findOrFail($id);
         $product->name = $request->name;
+        $product->category = $request->category;
         $product->description = $request->description;
         $product->price = $request->price;
 

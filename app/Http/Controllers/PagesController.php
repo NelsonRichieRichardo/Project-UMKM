@@ -25,7 +25,8 @@ class PagesController extends Controller
         return view('pages.admin.dashboard');
     }
     public function menu(){
-        return view('pages.menu');
+        $products = Product::all();
+        return view('pages.menu', compact('products'));
     }
 
     public function about(){

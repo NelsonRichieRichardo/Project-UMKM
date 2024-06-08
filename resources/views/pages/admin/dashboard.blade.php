@@ -14,6 +14,7 @@
             <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Category</th>
                     <th>Description</th>
                     <th>Price</th>
                     <th>Image</th>
@@ -24,6 +25,7 @@
                 @foreach($products as $product)
                 <tr>
                     <td>{{ $product->name }}</td>
+                    <td>{{ $product->category }}</td>
                     <td>{{ $product->description }}</td>
                     <td>{{ $product->price }}</td>
                     <td><img src="{{ asset('uploads/' . $product->image) }}" width="50" alt="Product Image"></td>
