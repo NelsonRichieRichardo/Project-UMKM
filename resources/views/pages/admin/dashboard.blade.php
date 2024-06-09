@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    @vite('resources/css/app.css')
     <title>De'Sate | Admin</title>
 </head>
 <body>
     <div class="container">
         <h1>Products</h1>
-        <a href="{{ route('products.create') }}" class="btn btn-primary">Add New Product</a>
+        <a href="{{ route('products.create') }}" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 ">Add New Product</a>
         <table class="table">
             <thead>
                 <tr>
