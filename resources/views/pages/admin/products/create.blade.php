@@ -8,32 +8,32 @@
     <title>De'Sate | Admin</title>
 </head>
 <body class="flex h-screen items-center justify-center">
-    <div class="max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
-        <h2 class="text-lg font-semibold text-gray-700 capitalize dark:text-white">Add Product</h2>
+    <div class="max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md">
+        <h2 class="text-lg font-semibold text-gray-700 capitalize">Add Product</h2>
         <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="name">Name</label>
-                <input type="text" name="name" class="form-control" required>
+                <label class="text-gray-700" for="name">Name</label>
+                <input type="text" name="name" class="form-control border rounded" required>
             </div>
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="category">Category</label>
-                <select name="category" id="category">
-                    <option value="makanan">Foods</option>
+                <label class="text-gray-700" for="category">Category</label>
+                <select name="category" class="border rounded"id="category">
+                    <option value="makanan" selected>Foods</option>
                     <option value="minuman">Drinks</option>
                 </select>
             </div>
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="description">Description</label>
-                <textarea name="description" class="form-control"></textarea>
+                <label class="text-gray-700" for="description">Description</label>
+                <textarea name="description" class="form-control border rounded"></textarea>
             </div>
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="price">Price</label>
-                <input type="number" name="price" class="form-control" step="0.01" required>
+                <label class="text-gray-700" for="price">Price</label>
+                <input type="number" name="price" class="form-control border rounded" step="0.01" required>
             </div>
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="image">Image</label>
-                <input type="file" name="image" class="form-control">
+                <label class="text-gray-700" for="image">Image</label>
+                <input type="file" name="image" class="form-control border rounded">
             </div>
 
             <div class="flex justify-end mt-6">
