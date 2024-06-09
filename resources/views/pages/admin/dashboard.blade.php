@@ -11,7 +11,7 @@
     <section class="container px-4 mx-auto">
         <h1 class="page-header">Products</h1>
         <a href="{{ route('products.create') }}" class="flex justify-end">
-            <button class="my-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" class="btn btn-primary">Add New Product</button>
+            <button class="my-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-green-700 rounded-md hover:bg-green-600 focus:outline-none focus:bg-green-600" class="btn btn-primary">Add New Product</button>
         </a>
         <div class="flex flex-col">
             <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">

@@ -25,7 +25,7 @@
           <input name="password" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************" required>
         </div>
         <div class="flex items-center justify-center">
-          <button class="mx-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" action="" method="POST" type="submit">
+          <button class="mx-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-blue-700 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600" action="" method="POST" type="submit">
             Sign In
           </button>
         </div>
