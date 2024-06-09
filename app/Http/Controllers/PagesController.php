@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\AuthController;
 use Illuminate\Http\Request;
 use App\Models\Product;
+use Hash;
 
 class PagesController extends Controller
 {
