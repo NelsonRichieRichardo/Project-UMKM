@@ -24,21 +24,21 @@
             </thead>
             <tbody>
                 @foreach($products as $product)
-                <tr>
-                    <td>{{ $product->name }}</td>
-                    <td>{{ $product->category }}</td>
-                    <td>{{ $product->description }}</td>
-                    <td>{{ $product->price }}</td>
-                    <td><img src="{{ asset('uploads/' . $product->image) }}" width="50" alt="Product Image"></td>
-                    <td>
-                        <a href="{{ route('products.edit', $product->id) }}" class="btn btn-warning">Edit</a>
-                        <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display:inline-block;">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-danger">Delete</button>
-                        </form>
-                    </td>
-                </tr>
+                    <tr>
+                        <td>{{ $product->name }}</td>
+                        <td>{{ $product->category }}</td>
+                        <td>{{ $product->description }}</td>
+                        <td>{{ $product->price }}</td>
+                        <td><img src="{{ asset('uploads/' . $product->image) }}" width="50" alt="Product Image"></td>
+                        <td>
+                            <a href="{{ route('products.edit', $product->id) }}" class="btn btn-warning">Edit</a>
+                            <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display:inline-block;">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
                 @endforeach
             </tbody>
         </table>

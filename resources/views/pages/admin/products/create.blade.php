@@ -13,30 +13,33 @@
         <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="name">Name:</label>
+                <label class="text-gray-700 dark:text-gray-200" for="name">Name</label>
                 <input type="text" name="name" class="form-control" required>
             </div>
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="category">Category:</label>
+                <label class="text-gray-700 dark:text-gray-200" for="category">Category</label>
                 <select name="category" id="category">
                     <option value="makanan">Foods</option>
                     <option value="minuman">Drinks</option>
                 </select>
             </div>
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="description">Description:</label>
+                <label class="text-gray-700 dark:text-gray-200" for="description">Description</label>
                 <textarea name="description" class="form-control"></textarea>
             </div>
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="price">Price:</label>
+                <label class="text-gray-700 dark:text-gray-200" for="price">Price</label>
                 <input type="number" name="price" class="form-control" step="0.01" required>
             </div>
             <div class="form-group grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
-                <label class="text-gray-700 dark:text-gray-200" for="image">Image:</label>
+                <label class="text-gray-700 dark:text-gray-200" for="image">Image</label>
                 <input type="file" name="image" class="form-control">
             </div>
 
             <div class="flex justify-end mt-6">
+                <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data">
+                    <button class="mx-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" onclick="event.preventDefault(); window.location.href = '/admin'">Cancel</button>
+                </form>
                 <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" type="submit" class="btn btn-primary">Save</button>
             </div>
         </form>
