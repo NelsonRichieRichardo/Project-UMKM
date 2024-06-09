@@ -9,7 +9,10 @@
     <style>
         .container{
             margin-top: 10px;
-            /* background-image: url('./build/assets/interior.jpg'); */
+            background-image: url('./build/assets/interior.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: grey;
             background-color: grey;
             width: 100%;
             height: 50%;
@@ -33,8 +36,13 @@
             width: 40%;
             height: 15%;
             padding-left: 10px;
-            padding-right: 10px;
+            padding-right: 25px;
             border-radius: 10%;
+        }
+        #owner p{
+            text-align: justify;
+            padding-left: 10px;
+            padding-right: 10%;
         }
         #nama{
             width: 40%;
@@ -89,7 +97,7 @@
     <h2>Owner ──────────</h2>
     <section id="owner">
         <img src="./build/assets/pakde.JPG" alt="pakde">
-        <p> Bapak Supriyadi adalah orang yang membangun restoran De'sate atau biasa dipanggil dengan sebutan "Pak De"</p>
+        <p> Bapak Supriyadi, atau yang akrab dipanggil dengan sebutan "Pak De," adalah pendiri restoran De'sate. Beliau bersama istrinya telah membangun restoran ini sejak tahun 2001. Beliau lahir di Jawa Timur,Pada masa mudanya Pak De memutuskan untuk merantau ke Batam demi mencari kehidupan yang lebih baik. Ketekunan dan kerja kerasnya membuahkan hasil, menjadikan De'sate sebagai salah satu restoran yang terkenal di Batam terutama dikalangan anak muda dan warga disekitarnya.</p>
     </section>
     <p id="nama">Pak Suryadi “De”</p>
     <section id="find">

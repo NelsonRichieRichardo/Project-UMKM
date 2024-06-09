@@ -151,12 +151,7 @@
             <div class="about-col">
                 <h1>Who is the Man behind Desate</h1>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorum harum veniam ex eaque. Expedita fugit incidunt possimus, repellendus, 
-                    quasi distinctio quas, neque culpa dignissimos soluta ullam. Ut, nihil consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorum harum veniam ex eaque. Expedita fugit incidunt possimus, repellendus, 
-                    quasi distinctio quas, neque culpa dignissimos soluta ullam. Ut, nihil consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorum harum veniam ex eaque. Expedita fugit incidunt possimus, repellendus, 
-                    quasi distinctio quas, neque culpa dignissimos soluta ullam. Ut, nihil consequatur.</p>
+                <p style="text-align: justify"> Bapak Supriyadi, atau yang akrab dipanggil dengan sebutan "Pak De," adalah pendiri restoran De'sate. Beliau bersama istrinya telah membangun restoran ini sejak tahun 2001. Beliau lahir di Jawa Timur,Pada masa mudanya Pak De memutuskan untuk merantau ke Batam demi mencari kehidupan yang lebih baik. Ketekunan dan kerja kerasnya membuahkan hasil, menjadikan De'sate sebagai salah satu restoran yang terkenal di Batam terutama dikalangan anak muda dan warga disekitarnya.</p>
                     <div class="hero-btn"><a href="/about">Learn More</a></div>
             </div>
         </div>
@@ -173,16 +168,16 @@
                 <div class="user-info">
                     <i class="fa-solid fa-user"></i>
                     <div class="user-social">
-                        <h4>Some User</h4>
+                        <h4>Lily Gabriel</h4>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
                 <div class="user-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi.</p>
+                    <p>After college, I often eat here with friends while working on assignments. 
+                        Then chat with uncle and bude too. The service is good, the menu is varied, 
+                        it's delicious! Already a regular for UIB kids 💯.</p>
                 </div>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -203,9 +198,9 @@
                     </div>
                 </div>
                 <div class="user-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi.</p>
+                    <p>After college, I often eat here with friends while working on assignments. 
+                        Then chat with uncle and bude too. The service is good, the menu is varied, 
+                        it's delicious! Already a regular for UIB kids 💯</p>
                 </div>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -226,9 +221,9 @@
                     </div>
                 </div>
                 <div class="user-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi.</p>
+                    <p>After college, I often eat here with friends while working on assignments. 
+                        Then chat with uncle and bude too. The service is good, the menu is varied, 
+                        it's delicious! Already a regular for UIB kids 💯.</p>
                 </div>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
