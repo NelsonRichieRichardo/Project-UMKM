@@ -151,7 +151,7 @@
             <div class="about-col">
                 <h1>Who is the Man behind Desate</h1>
 
-                <p style="text-align: justify"> Bapak Supriyadi, atau yang akrab dipanggil dengan sebutan "Pak De," adalah pendiri restoran De'sate. Beliau bersama istrinya telah membangun restoran ini sejak tahun 2001. Beliau lahir di Jawa Timur,Pada masa mudanya Pak De memutuskan untuk merantau ke Batam demi mencari kehidupan yang lebih baik. Ketekunan dan kerja kerasnya membuahkan hasil, menjadikan De'sate sebagai salah satu restoran yang terkenal di Batam terutama dikalangan anak muda dan warga disekitarnya.</p>
+                <p style="text-align: justify"> Bapak Supriyadi, atau yang akrab dipanggil dengan sebutan "Pak De," adalah pendiri restoran De'sate. Beliau bersama istrinya telah membangun restoran ini sejak tahun 2001. Beliau lahir di Jawa Timur, Pada masa mudanya Pak De memutuskan untuk merantau ke Batam demi mencari kehidupan yang lebih baik. Dengan ketekunan dan kerja kerasnya membuahkan hasil, menjadikan De'sate sebagai salah satu restoran yang terkenal di Batam terutama dikalangan anak muda dan warga disekitarnya.</p>
                     <div class="hero-btn"><a href="/about">Learn More</a></div>
             </div>
         </div>
