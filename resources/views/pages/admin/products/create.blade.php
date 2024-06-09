@@ -38,9 +38,9 @@
 
             <div class="flex justify-end mt-6">
                 <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data">
-                    <button class="mx-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" onclick="event.preventDefault(); window.location.href = '/admin'">Cancel</button>
+                    <button class="mx-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-red-700 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600" onclick="event.preventDefault(); window.location.href = '/admin'">Cancel</button>
                 </form>
-                <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" type="submit" class="btn btn-primary">Save</button>
+                <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-blue-700 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600" type="submit" class="btn btn-primary">Save</button>
             </div>
         </form>
     </div>

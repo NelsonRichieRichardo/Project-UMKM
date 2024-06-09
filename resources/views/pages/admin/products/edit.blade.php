@@ -41,9 +41,9 @@
             </div>
             <div class="flex justify-end mt-6">
                 <a href="/admin">
-                    <button class="mx-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" class="btn btn-primary">Cancel</button>
+                    <button class="mx-8 px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-red-700 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600" class="btn btn-primary">Cancel</button>
                 </a>
-                <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" type="submit" class="btn btn-primary">Save</button>
+                <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-blue-700 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600" type="submit" class="btn btn-primary">Save</button>
             </div>
         </form>
     </div>
