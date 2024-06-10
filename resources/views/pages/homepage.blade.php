@@ -60,8 +60,8 @@
                 <div class="product-desc">
                     <h3>Ayam Bakar</h3>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Nikmati kelezatan Ayam Bakar Spesial kami yang diolah dengan bumbu rempah pilihan 
+                        dan dipanggang hingga matang sempurna.</p>
                 </div>
             </div>
             <div class="product-col">
@@ -74,8 +74,7 @@
                 <div class="product-desc">
                     <h3>Sate Reguler</h3>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Hadir dengan potongan daging pilihan, Sate kami menawarkan rasa gurih dan tekstur yang lembut. Diracik dengan bumbu rempah yang sempurna. </p>
                 </div>
             </div>
             <div class="product-col">
@@ -88,8 +87,7 @@
                 <div class="product-desc">
                     <h3>Pattaya</h3>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Nasi Goreng Pattaya kami yang istimewa dengan cita rasa yang khas serta disajikan dengan daging ayam, bilis, telur serta bumbu lainnya.</p>
                 </div>
             </div>
         </div>
@@ -98,52 +96,50 @@
             <div class="product-col">
                 <div class="prod-img">
                     <div class="overlay"></div>
-                    <img src="../../foto/ayamp.JPG">
+                    <img src="../../foto/es_kopi.png">
                 </div>
-                <h2>Ayam Bakar</h2>
-                <h3>Rp 24.000</h3>
+                <h2>Es Kopi Susu</h2>
+                <h3>Rp 8.000</h3>
                 <div class="product-desc">
-                    <h3>Ayam Bakar</h3>
+                    <h3>Es Kopi Susu</h3>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Rasakan kesegaran Es Kopi Susu kami yang dibuat dari perpaduan sempurna antara kopi pilihan dan susu segar. Minuman ini menawarkan cita rasa kopi yang kuat dan aroma yang harum.</p>
                 </div>
             </div>
             <div class="product-col">
                 <div class="prod-img">
                     <div class="overlay"></div>
-                    <img src="../../foto/satereguler.JPG">
+                    <img src="../../foto/matcha.png">
                 </div>
-                <h2>Sate Reguler</h2>
-                <h3>Rp 20.000</h3>
+                <h2>Matcha</h2>
+                <h3>Rp 8.000</h3>
                 <div class="product-desc">
-                    <h3>Sate Reguler</h3>
+                    <h3>Matcha</h3>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Nikmati kelezatan Es Matcha kami yang dibuat dari bubuk matcha premium dan susu segar. 
+                        Minuman ini menawarkan cita rasa matcha yang autentik serta sentuhan creamy dari susu. </p>
                 </div>
             </div>
             <div class="product-col">
                 <div class="prod-img">
                     <div class="overlay"></div>
-                    <img src="../../foto/pattaya.JPG">
+                    <img src="../../foto/es_coklat.png">
                 </div>
-                <h2>Pattaya</h2>   
-                <h3>Rp 18.000</h3>
+                <h2>Es Coklat</h2>   
+                <h3>Rp 8.000</h3>
                 <div class="product-desc">
-                    <h3>Pattaya</h3>
+                    <h3>Es Coklat</h3>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Hadirkan kenikmatan Es Coklat Klasik kami yang dibuat dari coklat premium dan susu segar. Minuman ini menawarkan rasa coklat yang kaya dan lembut dengan sentuhan manis yang pas.</p>
                 </div>
             </div>
         </div>
 
     </section>
     
+    {{-- <div class="w-max h-24"></div> --}}
 
-
-    <section id="about" class="mt-20">
+    <section id="about" class="mt-24">
         <div class="about-row">
             <div class="about-img">
                 <img src="../../foto/pakde2.jpeg">
@@ -191,16 +187,14 @@
                 <div class="user-info">
                     <i class="fa-solid fa-user"></i>
                     <div class="user-social">
-                        <h4>Random User</h4>
+                        <h4>Rudi Pangestu</h4>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
                 <div class="user-text">
-                    <p>After college, I often eat here with friends while working on assignments. 
-                        Then chat with uncle and bude too. The service is good, the menu is varied, 
-                        it's delicious! Already a regular for UIB kids 💯</p>
+                    <p>Pada masa perkuliahan saya, saya sering mengunjungi Restoran De Sate Taman Kota Mas Batam, saya sering disapa oleh pemilik restoran yang biasa dikenal dengan "Pak'de". Biasanya Aroma sate yang sedang dipanggang memenuhi udara, menggoda selera untuk para pelanggannya</p>
                 </div>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -214,16 +208,14 @@
                 <div class="user-info">
                     <i class="fa-solid fa-user"></i>
                     <div class="user-social">
-                        <h4>Phone User</h4>
+                        <h4>David</h4>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
                 <div class="user-text">
-                    <p>After college, I often eat here with friends while working on assignments. 
-                        Then chat with uncle and bude too. The service is good, the menu is varied, 
-                        it's delicious! Already a regular for UIB kids 💯.</p>
+                    <p>Kalau bingung mau kemana ke restoran pak de aja, udah murah enak lagi.</p>
                 </div>
                 <div class="stars">
                     <i class="fa-solid fa-star"></i>
@@ -236,10 +228,10 @@
         </div>
         <h2>"Affordable & Delicious"</h2>
     </section>
-
+{{-- <div class="w-max h-44"></div> --}}
 {{----- SITE FOOTER -----}}
     <footer class="bg-white shadow dark:bg-gray-900">
-        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-10">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                     <img src="../../foto/logo-white.png" class="h-8" alt="DeSate Logo" />

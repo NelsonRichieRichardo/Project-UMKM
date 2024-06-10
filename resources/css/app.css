@@ -205,7 +205,7 @@ justify-content : space-between
 .product-row {
 	width: 80%;
 	margin: auto;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -276,8 +276,8 @@ justify-content : space-between
 }
 
 .product-desc {
-	width: 85%;
-	height: 70%;
+	width: 90%;
+	height: 85%;
 	bottom: 0;
 	left: 50%;
 	position: absolute;
@@ -295,7 +295,7 @@ justify-content : space-between
 	background: white;
 	height: 2px;
 	border: 0;
-	margin: 15px auto;
+	margin: 10px auto;
 }
 
 .product-desc p {
