@@ -64,6 +64,10 @@ nav {
     right: 0;
 }
 
+
+
+
+/* -----HOME PAGE----- */
 #main {
     width: 100%;
     height: 100vh;
@@ -158,6 +162,8 @@ justify-content : space-between
 .sampingan .samping {
     border-radius: 50%;
 }
+
+
 
 
 /* -----Products----- */
@@ -363,6 +369,9 @@ justify-content : space-between
 	align-items: center;
 	margin-bottom: 40px;
 }
+
+
+
 
 /* -----Testimonials----- */
 #testimonials {
