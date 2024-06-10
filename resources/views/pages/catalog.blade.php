@@ -8,18 +8,20 @@
     <title>Catalog | De'Sate</title>
 </head>
 <body>
-  <nav class="nav-header">
-    <div class="nav-option">
-        <ul>
-		    <li><a href="/home">Home</a></li>
-			<li><a href="/menu">Menu</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/catalog">Catalog</a></li>
-		</ul>
-    </div>
-  </nav>
+  <section id="catalog-header">
+    <nav>
+      <h1 class="page-header">Product Catalog</h1>
+        <div class="navlinks" id="catalogNav">
+            <ul>
+                <li><a href="/home">HOME</a></li>
+                <li><a href="/menu">MENU</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/catalog">CATALOG</a></li>
+            </ul>
+        </div>
+    </nav>
+  </section>
 
-  <h1 class="page-header">Product Catalog</h1>
 
   <div class="bg-white">
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8">
