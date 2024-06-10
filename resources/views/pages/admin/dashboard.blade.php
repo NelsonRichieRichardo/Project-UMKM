@@ -41,24 +41,34 @@
                                 </tr>
                             </thead>
                             <tbody class="bg-white divide-y divide-gray-200">
-                                @foreach ($products as $product)
-                                <tr>
-                                    <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap">{{$product->name}}</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap">{{$product->category}}</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap">{{$product->description}}</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap">{{$product->price}}</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"><img src="{{ asset('uploads/' . $product->image) }}" width="50" alt="Product Image"></td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"><a href="{{ route('products.edit', $product->id) }}" class="btn btn-warning px-4 py-2 text-white transition-colors duration-300 transform bg-blue-700 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Edit</a>
-                                        <form action="{{ route('products.destroy', $product->id) }}" class="mx-8" method="POST" style="display:inline-block;">
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit" class="btn btn-danger px-4 py-2 text-white transition-colors duration-300 transform bg-red-700 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600">Delete</button>
-                                        </form></td>
-                                </tr>
-                                @endforeach
+                                @if (count($products) == 0)
+                                    <tr>
+                                        <td colspan="5" class="px-6 py-4 text-center"> -- No Data -- </td>
+                                    </tr>                                
+                                @else
+                                    @foreach ($products as $product)
+                                        <tr>
+                                            <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap">{{$product->name}}</td>
+                                            <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap">{{$product->category}}</td>
+                                            <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap">{{$product->description}}</td>
+                                            <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap">Rp. {{$product->price}}</td>
+                                            <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"><img src="{{ asset('uploads/' . $product->image) }}" width="50" alt="Product Image"></td>
+                                            <td class="px-4 py-4 text-sm text-gray-500 whitespace-nowrap"><a href="{{ route('products.edit', $product->id) }}" class="btn btn-warning px-4 py-2 text-white transition-colors duration-300 transform bg-blue-700 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Edit</a>
+                                                <form action="{{ route('products.destroy', $product->id) }}" class="mx-8" method="POST" style="display:inline-block;">
+                                                    @csrf
+                                                    @method('DELETE')
+                                                    <button type="submit" class="btn btn-danger px-4 py-2 text-white transition-colors duration-300 transform bg-red-700 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600">Delete</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    @endforeach
+                                @endif
                             </tbody>
                         </table>
                     </div>
+                    <div class="flex justify-center mt-4">
+                        {{ $products->links('vendor.pagination.simple-tailwind') }} 
+                     </div>
                 </div>
             </div>
         </div>

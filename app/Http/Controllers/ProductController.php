@@ -15,8 +15,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::latest('id')->get();
-        return view('pages.admin.dashboard', compact('products'));
+        $products = Product::orderBy('name', 'asc')->paginate(5);
+        return view('pages.admin.dashboard', compact('products'));  
     }
 
     /**
@@ -32,6 +32,8 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
+        DB::beginTransaction();
+
         $request->validate([
             'name' => 'required',
             'category' => 'nullable',
@@ -52,8 +54,10 @@ class ProductController extends Controller
             $file->move(public_path('uploads'), $fileName);
             $product->image = $fileName;
         }
-
+        
         $product->save();
+
+        DB::commit();
 
         Session::flash('success', 'Product created successfully');
         return redirect()->route('admin.dashboard');
@@ -73,6 +77,8 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
+        DB::beginTransaction();
+
         $request->validate([
             'name' => 'required',
             'description' => 'nullable',
@@ -100,6 +106,8 @@ class ProductController extends Controller
 
         $product->save();
 
+        DB::commit();
+
         Session::flash('success', 'Product updated successfully');
         return redirect()->route('admin.dashboard');
     }
@@ -109,13 +117,17 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
+        DB::beginTransaction();
+        
         $product = Product::findOrFail($id);
 
         if ($product->image && File::exists(public_path('uploads/' . $product->image))) {
             File::delete(public_path('uploads/' . $product->image));
         }
-
+        
         $product->delete();
+
+        DB::commit();
         
         Session::flash('success', 'Product deleted successfully');
         return redirect()->route('admin.dashboard');
