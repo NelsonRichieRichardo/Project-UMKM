@@ -16,7 +16,6 @@ html {
 .page-header {
     font-size: 50px;
     margin-left: 32px;
-    margin-top: 32px;
     font-weight: bold;
 }
 
@@ -613,6 +612,20 @@ hr {
     font-weight:600
   }
 }
+
+#catalog-header {
+  position: relative;
+  align-items: space-between;
+  color: black;
+  margin-right: 1.7rem;
+
+}
+
+#catalogNav a{
+  color: black;
+}
+
+
 /* For mobile phones: */
 /* [class*="col-"] {
     width: 100%;
