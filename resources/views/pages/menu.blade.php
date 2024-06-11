@@ -24,8 +24,8 @@
 
     <section id="menu-main">
         <nav>
-            <img src="../../foto/logo-white.png" class="logo">
-            <div class="navlinks" id="navLinks">
+            <img src="../../foto/logo-black.png" class="logo">
+            <div class="navlinks" id="menuLinks">
                 <ul>
                     <li><a href="/home">HOME</a></li>
                     <li><a href="/menu">MENU</a></li>
