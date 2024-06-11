@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <title>Admin Login | De'Sate</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-OgwbZS7/BXzYhFSRvzXHcGOQvBwEIOFB4EvROIe5s1bkv8pHSTjzMDoLbp6SkdWQo" crossorigin="anonymous"></script>
 </head>
 <body class="flex h-screen items-center justify-center">
   <div class="w-full max-w-xs">
     <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" action="" method="POST">
+      
       <img src="uploads\desate-logo.svg">
       {{ csrf_field() }}
+      @csrf
       <div class="mb-4">
         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
           Username
