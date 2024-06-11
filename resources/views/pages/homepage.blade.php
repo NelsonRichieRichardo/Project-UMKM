@@ -137,7 +137,7 @@
 
     </section>
     
-    {{-- <div class="w-max h-24"></div> --}}
+    <div class="w-max h-24"></div>
 
     <section id="about" class="mt-24">
         <div class="about-row">
@@ -228,7 +228,7 @@
         </div>
         <h2>"Affordable & Delicious"</h2>
     </section>
-{{-- <div class="w-max h-44"></div> --}}
+<div class="w-max h-44"></div>
 {{----- SITE FOOTER -----}}
     <footer class="bg-white shadow dark:bg-gray-900">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-10">
