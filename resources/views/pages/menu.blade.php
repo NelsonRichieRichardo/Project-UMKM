@@ -27,7 +27,7 @@
             <img src="../../foto/logo-black.png" class="logo">
             <div class="navlinks" id="menuLinks">
                 <ul>
-                    <li><a href="/home">HOME</a></li>
+                    <li><a href="/">HOME</a></li>
                     <li><a href="/menu">MENU</a></li>
                     <li><a href="/about">ABOUT</a></li>
                     <li><a href="/catalog">CATALOG</a></li>
