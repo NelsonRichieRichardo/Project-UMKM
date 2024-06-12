@@ -67,12 +67,12 @@ nav {
 
 
 /* -----HOME PAGE----- */
-.scrollable-div {
+/* .scrollable-div {
   height: 80%;
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-}
+} */
 #main {
     width: 100%;
     height: 100vh;
